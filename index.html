@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Tag de informação (não é necessário fechar a Tag) que identifica o documento como HTML5 (versão mais atual) renderização -->
+<html lang="pt-br">
+<!-- Tag de conteúdo, lang: linguagem/idioma português-Brasil-->
+    <head>
+    <!-- Tag de conteúdo que identifica o cabeçalho da página, informações para o navegador -->
+        <meta charset="UTF-8">
+        <!-- Tag de informação (não é necessário fechar a Tag) que identifica o documento como UTF-8 (dicionário, caracteres) -->
+        <title>Barbearia Alura</title>
+        <!-- Tag de conteúdo que identifica o título da página -->
+        <link rel="stylesheet" href="./css/style-home.css">
+        <!-- Tag de informação (não é necessário fechar a Tag) que identifica o relacionamento e o endereço de referência, do documento CSS (estilização) -->
+        
+        <!--
+        <style>
+            p {
+                text-align: center
+            }
+        </style>
+        /* incluindo a estilização em cada tag na propriedade style, no mesmo arquivo html */ -->
+    </head>
+
+    <header>
+        <h1 class="titulo-principal">Barbearia Alura</h1>
+    </header>
+
+    <body>
+    <!-- Tag de conteúdo que identifica o corpo da página, informações que queremos exibir na página -->
+        <img id="banner" src="./img/banner.jpg">
+        <!-- Tag imagem, id para CSS, src (source) -->
+        <div class="principal">
+        <!-- Tag de conteúdo que identifica a divisão da página -->
+            <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+            <!-- Tag de conteúdo que identifica o título da página -->
+
+            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+            Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <!-- Tag de conteúdo que identifica o parágrafo da página -->
+
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            <!-- CSS inline, propriedade style, tamanho da fonte -->
+            <!-- editado, CSS com id (único) -->
+            
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </div>
+
+        <div class="beneficios">
+            <h3 class="titulo-centralizado">Benefícios</h3>
+
+            <ul>
+            <!-- Tag de conteúdo que identifica a lista não ordenada da página, também podemos utilizar ol -> lista ordenada -->
+                <li class="itens">Excelente localização</li>
+                <!-- Tag de conteúdo que identifica o item da lista da página 
+                    Atribuindo classes no CSS, para marcar itens repetíveis  -->
+                <li class="itens">Profissionais qualificados</li>
+                <li class="itens">Atendimento personalizado</li>
+                <li class="itens">Preços acessíveis</li>
+            </ul>
+            <img class="imagembeneficios" src="./img/beneficios.jpg" >
+        </div>
+    </body>
+</html>
